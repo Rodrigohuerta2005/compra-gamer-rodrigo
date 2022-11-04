@@ -2,7 +2,7 @@ a {
   text-decoration: none;
 }
 .container-header {
-  background-color: red;
+  background-color: rgb(197, 79, 0);
   padding: 20px 0px;
 }
 .header-content {
@@ -50,7 +50,7 @@ a {
 }
 .registrarse {
   padding: 4px 11px;
-  background-color: blue;
+  background-color: rgb(197, 79, 0);
   border-radius: 25px;
 }
 .registrarse a {
