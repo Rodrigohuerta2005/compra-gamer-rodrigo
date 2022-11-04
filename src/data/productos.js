@@ -10,19 +10,19 @@ export const productos = [
     image: monitor, id: '1', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
   },
   {
-    image: silla, id: '2', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: silla, id: '2', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Silla gamer de gran calidad'
   },
   {
-    image: computadora, id: '3', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: computadora, id: '3', nombre: 'Monitor 60hz', precio: 400, descripcion: 'computadora gamer con refrigeracion liquida'
   },
   {
-    image: maus2, id: '4', nombre: 'Mouse gamer Lochitic', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: maus2, id: '4', nombre: 'Mouse gamer Lochitic', precio: 400, descripcion: 'mouse logitech de 10000 dpi'
   },
   {
-    image: auricular, id: '5', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: auricular, id: '5', nombre: 'Auricular ', precio: 3355, descripcion: 'auricular gamer '
   },
   {
-    image: auricular, id: '6', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: mouse, id: '6', nombre: 'mouse logitech', precio: 8000, descripcion: 'mouse logitech'
   },
   {
     image: auricular, id: '7', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
