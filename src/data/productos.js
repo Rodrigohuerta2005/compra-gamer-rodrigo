@@ -2,7 +2,7 @@ import monitor from '../images/monitor.png'
 import silla from '../images/silla.png'
 import computadora from '../images/computadora.png'
 import auricular from '../images/auricular.png'
-
+import maus2 from '../images/maus2.png'
 export const productos = [
   {
     image: monitor, id: '1', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
@@ -14,7 +14,7 @@ export const productos = [
     image: computadora, id: '3', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
   },
   {
-    image: auricular, id: '4', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: maus2, id: '4', nombre: 'Mouse gamer Lochitic', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
   },
   {
     image: auricular, id: '5', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'

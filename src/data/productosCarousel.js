@@ -7,12 +7,12 @@ export const productosCarousel = [
     image: monitor, id: '1', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
   },
   {
-    image: silla, id: '2', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: silla, id: '2', nombre: 'silla gamer ', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
   },
   {
-    image: computadora, id: '3', nombre: 'Monitor 60hz', precio: 43333333333333300, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: computadora, id: '3', nombre: 'computadora gamer', precio: 100000, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
   },
   {
-    image: auricular, id: '4', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: auricular, id: '4', nombre: 'auricular gey', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
   },
 ]
