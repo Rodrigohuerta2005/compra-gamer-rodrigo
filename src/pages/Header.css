@@ -1,0 +1,58 @@
+a {
+  text-decoration: none;
+}
+.container-header {
+  background-color: red;
+  padding: 20px 0px;
+}
+.header-content {
+  margin: 0 auto;
+  max-width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+}
+.buscador {
+  max-width: 400px;
+  width: 400px;
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  /* padding: 20px; */
+}
+.buscador-icono {
+  position: absolute;
+  padding: 20px;
+}
+.buscador input {
+  width: 100%;
+  height: fit-content;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 20px;
+}
+.container-registro {
+  display: flex;
+  gap: 14px;
+}
+.iniciar-sesion {
+  padding: 4px 8px;
+  /* background-color: blue; */
+  border-radius: 25px;
+}
+.iniciar-sesion a {
+  color: #fff;
+}
+.registrarse {
+  padding: 4px 11px;
+  background-color: blue;
+  border-radius: 25px;
+}
+.registrarse a {
+  color: #fff;
+}
