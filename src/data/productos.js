@@ -6,21 +6,21 @@ import maus2 from '../images/maus2.png'
 import mouse from '../images/mouse.jpg'
 import rtx3080 from '../images/rtx3080.png'
 import golden from '../images/golden.png'
-// import ryzen5 from '../images/Rx56.jpg'
-// import gygab from '../images/gygab.png'
-// import amdA from '../images/'
+import Rz56 from '../images/Rz56.jpg'
+import gygab from '../images/gygab.png'
+import amd2 from '../images/amd2.png'
 export const productos = [
   {
     image: monitor, id: '1', nombre: 'Monitor 60hz', precio: 400, descripcion: ''
   },
   {
-    image: silla, id: '2', nombre: 'Monitor 60hz', precio: 400, descripcion: ''
+    image: silla, id: '2', nombre: 'Silla gamer', precio: 400, descripcion: ''
   },
   {
-    image: computadora, id: '3', nombre: 'Monitor 60hz', precio: 400, descripcion: ''
+    image: computadora, id: '3', nombre: 'PC Gamer full', precio: 400, descripcion: ''
   },
   {
-    image: maus2, id: '4', nombre: 'Mouse gamer Lochitic', precio: 400, descripcion: ''
+    image: maus2, id: '4', nombre: 'Mouse gamer', precio: 400, descripcion: ''
   },
   {
     image: auricular, id: '5', nombre: 'Auricular ', precio: 3355, descripcion: ''
@@ -29,26 +29,26 @@ export const productos = [
     image: mouse, id: '6', nombre: 'mouse logitech', precio: 8000, descripcion: ''
   },
   {
-    image: golden, id: '7', nombre: 'Tarjeta grafica golden edition', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: golden, id: '7', nombre: 'Tarjeta grafica golden edition', precio: 400, descripcion: ''
   },
   {
-    image: rtx3080, id: '8', nombre: 'Nvidia rtx 3080', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: rtx3080, id: '8', nombre: 'Nvidia rtx 3080', precio: 400, descripcion: ''
   },
   {
-    image: auricular, id: '9', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: Rz56, id: '9', nombre: 'Ryzen 5 5600g', precio: 400, descripcion: ''
   },
   {
-    image: auricular, id: '10', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: gygab, id: '10', nombre: 'Placaa Madre gigabyte', precio: 400, descripcion: ''
   },
 
   {
-    image: auricular, id: '11', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: amd2, id: '11', nombre: 'procesador', precio: 400, descripcion: ''
   },
   {
-    image: auricular, id: '12', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: auricular, id: '12', nombre: 'Monitor 60hz', precio: 400, descripcion: ''
   },
   {
-    image: auricular, id: '13', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
+    image: auricular, id: '13', nombre: 'Monitor 60hz', precio: 400, descripcion: ''
   },
 
 ]
