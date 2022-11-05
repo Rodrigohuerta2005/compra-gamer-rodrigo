@@ -8,7 +8,10 @@ import rtx3080 from '../images/rtx3080.png'
 import golden from '../images/golden.png'
 import Rz56 from '../images/Rz56.jpg'
 import gygab from '../images/gygab.png'
-import amd2 from '../images/amd2.png'
+import ram from '../images/ram.png'
+import teclado from '../images/teclado.png'
+import pad from '../images/pad.png'
+
 export const productos = [
   {
     image: monitor, id: '1', nombre: 'Monitor 60hz', precio: 400, descripcion: ''
@@ -38,17 +41,20 @@ export const productos = [
     image: Rz56, id: '9', nombre: 'Ryzen 5 5600g', precio: 400, descripcion: ''
   },
   {
-    image: gygab, id: '10', nombre: 'Placaa Madre gigabyte', precio: 400, descripcion: ''
+    image: gygab, id: '10', nombre: 'placa madre gigabyte', precio: 400, descripcion: ''
   },
+  {
+    image: ram, id: '11', nombre: 'Modulos ram ', precio: 400, descripcion: ''
+  },
+  {
+    image: teclado, id: '12', nombre: 'teclado redragon', precio: 43434, descripcion: ''
+  },
+  {
+    image: pad, id: '13', nombre: 'Mouse pad', precio: 43434, descripcion: ''
+  }
 
-  {
-    image: amd2, id: '11', nombre: 'procesador', precio: 400, descripcion: ''
-  },
-  {
-    image: auricular, id: '12', nombre: 'Monitor 60hz', precio: 400, descripcion: ''
-  },
-  {
-    image: auricular, id: '13', nombre: 'Monitor 60hz', precio: 400, descripcion: ''
-  },
+
+
+
 
 ]
