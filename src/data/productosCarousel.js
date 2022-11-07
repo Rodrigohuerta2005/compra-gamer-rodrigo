@@ -2,7 +2,7 @@ import monitor from '../images/monitor.png'
 import silla from '../images/silla.png'
 import computadora from '../images/computadora.png'
 import auricular from '../images/auricular.png'
-import mouse from '../images/mouse.jpg'
+import mouse from '../images/mouse.png'
 export const productosCarousel = [
   {
     image: monitor, id: '1', nombre: 'Monitor 60hz', precio: 400, descripcion: 'Monitor Gamer Curvo con una tasa de refrigeracion de 60hz'
