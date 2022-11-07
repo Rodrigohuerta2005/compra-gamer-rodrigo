@@ -15,11 +15,13 @@ const Productos = () => {
   return (
     <div style={{ margin: '40px' }}>
       <h1 className='titulo'>Productos</h1>
-      <form class="form">
+      <form onSubmit={(e) => {
+        e.preventDefault()
+      }} class="form">
         <button>
           <FaSearch className="buscador-icono" fontSize={18} color={'#000'} />
         </button>
-        <input onChange={debouncedSearch} class="input" placeholder="Type your text" required="" type="text"></input>
+        <input onChange={debouncedSearch} class="input" placeholder="Busca tu producto" required="" type="text"></input>
       </form>
       <div className='container-productos'>
         {productosStore.filter((val) => {
