@@ -23,7 +23,7 @@ const Header = () => {
             <a href="*">Registrarse</a>
           </li>
           <Link to='/carrito'>
-            <FaShoppingCart fontSize={30} color='#fff' />
+            <FaShoppingCart fontSize={30} color='white' />
           </Link>
         </ul>
       </div>
