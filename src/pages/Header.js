@@ -8,11 +8,13 @@ const Header = () => {
   return (
     <div className="container-header">
       <div className="header-content">
-        <img className="logo" src={logo} alt="Logo" />
-        <div className="buscador">
+        <Link to='/'>
+          <img className="logo" src={logo} alt="Logo" />
+        </Link>
+        {/* <div className="buscador">
           <input placeholder="Buscar" type="text" />
           <FaSearch className="buscador-icono" fontSize={18} color={'#fff'} />
-        </div>
+        </div> */}
         <ul className="container-registro">
           <li className="iniciar-sesion">
             <a href="*">Iniciar Sesion</a>

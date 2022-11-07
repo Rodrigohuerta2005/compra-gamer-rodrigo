@@ -5,9 +5,20 @@ const productosSlice = createSlice({
   name: 'productos',
   initialState: {
     productos: productos,
-    carrito: []
+    carrito: [],
+    productDetail: null
   },
   reducers: {
+    getProductById: (state, { payload }) => {
+      console.log(payload);
+      const existItem = state.productos?.map((x) => x.id === payload)
+      if (existItem) {
+        return {
+          ...state,
+          productDetail: state.productos?.find((x) => x.id === payload)
+        }
+      }
+    },
     addCart: (state, action) => {
       const item = action.payload;
       const existItem = state.carrito.find((x) => x.id === item.id);
@@ -33,7 +44,7 @@ const productosSlice = createSlice({
     }
   }
 })
-export const { addCart, removedToCart } = productosSlice.actions
+export const { addCart, removedToCart, getProductById } = productosSlice.actions
 export const selectProductos = (state) => state.productos.productos;
 export const selectCarrito = (state) => state.productos.carrito;
 export default productosSlice.reducer

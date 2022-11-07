@@ -13,8 +13,8 @@ const ItemCarrito = ({ producto }) => {
         <h2>{producto.nombre}</h2>
         <p>{producto.descripcion}</p>
       </div>
-      <div onClick={() => dispatch(removedToCart(producto))} style={{ height: '20px', minWidth: '30px' }}>
-        <FaRegTrashAlt fontSize={20} />
+      <div className='trash-item' onClick={() => dispatch(removedToCart(producto))}>
+        <FaRegTrashAlt className='trash-icon' fontSize={20} />
       </div>
     </div>
   )

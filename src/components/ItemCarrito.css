@@ -22,3 +22,22 @@
 .item-carrito p {
   margin: 10px;
 }
+.trash-item {
+  height: 20px;
+  min-width: 30px;
+}
+.trash-item:hover {
+  color: red;
+}
+.trash-icon {
+  background-color: gainsboro;
+  padding: 5px;
+  border-radius: 2px;
+}
+.trash-icon:active {
+  background-color: red;
+  color: #fff;
+}
+.trash-item:active {
+  transform: scale(0.95);
+}

@@ -5,18 +5,19 @@ import { selectCarrito } from '../features/productosSlice'
 import './Carrito.css'
 
 const Carrito = () => {
-  const carritoItems = useSelector(selectCarrito)
+  const carrito = useSelector(selectCarrito)
   const preciosArray = []
-  carritoItems.map(({ precio }) => preciosArray.push(precio))
+  carrito.map(({ precio }) => preciosArray.push(precio))
   const total = preciosArray.reduce((a, b) => a + b, 0)
 
   return (
     <div className='container-carrito'>
-      <h1 className='titulo-carrito'>Mi Carrito {`(${carritoItems.length}) items`}</h1>
-      <h2>Total: {total}</h2>
+      <h1 className='titulo-carrito'>Mi Carrito {`(${carrito.length}) items`}</h1>
+      <h2>Total: ${total}</h2>
       <div className="container-productos-carrito">
-        {carritoItems.length > 0 ? carritoItems.map(producto => (
-          <ItemCarrito producto={producto} />
+        {carrito.length > 0 ? carrito.map(producto => (
+          <ItemCarrito key={producto.id} producto={producto} />
+          // console.log(producto)
         )) : <h1 style={{ textAlign: 'center', margin: '160px 0px' }}>Carrito está vacio</h1>
         }
       </div>

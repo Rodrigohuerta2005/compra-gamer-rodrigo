@@ -1,26 +1,20 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { addCart, removedToCart } from "../features/productosSlice";
+import { Link } from "react-router-dom";
+
 import "./TarjetaProducto.css";
 
 const TarjetaProducto = ({ data }) => {
-  const dispatch = useDispatch()
   return (
-    <div className="container-tarjeta">
-      <img src={data.image} alt={data.nombre} />
-      <div className="contenido-tarjeta">
-        <h1>{data.nombre}</h1>
-        <p>{data.descripcion}</p>
-        <p >Precio: <strong>${data.precio}</strong></p>
-        <button
-          className="boton-añadir-carrito"
-          onClick={() => {
-            dispatch(addCart(data))
-          }}>
-          Añadir a Carrito
-        </button>
+    <Link style={{ color: 'currentcolor' }} to={`/productos/${data.id}`}>
+      <div className="card">
+        <img src={data.image} alt={data.nombre} className="card-image" />
+        <div className="card-body">
+          <h2 className="card-title">{data.nombre}</h2>
+          <p className="card-description">{data.descripcion}</p>
+          <p className="card-price">Precio: $<strong>{data.precio}</strong></p>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
